@@ -7,9 +7,10 @@ Class Tank {
         --ammunution;
     }
 
-    int drivenMeters = 0;
+    float drivenMeters = 0f;
 
-    void move(int amountToMoveInMeters) {
+    void move(float amountToMoveInMeters) {
         drivenMeters += amountToMoveInMeters;
     }
+
 }
